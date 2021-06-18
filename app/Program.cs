@@ -13,6 +13,7 @@ namespace app
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("CPUs: {0}", Environment.ProcessorCount);
             CreateHostBuilder(args).Build().Run();
         }
 
